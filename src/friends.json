@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Bemo",
+    "image": "/images/bemo.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Breakfast Princess",
+    "image": "/images/breakfast.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Princess Bubblegum",
+    "image": "/images/bubblegum.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Fin",
+    "image": "/images/fin.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Flame Princess",
+    "image": "/images/fire.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Ice King",
+    "image": "/images/iceKing.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Jake",
+    "image": "/images/jake.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Lemongrab",
+    "image": "/images/lemongrab.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Lumpy Space Princess",
+    "image": "/images/lsp.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Marceline",
+    "image": "/images/marceline.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Lady Rainicorn",
+    "image": "/images/rainicorn.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Treetrunks",
+    "image": "/images/treetrunks.jpg"
+  }
+]
