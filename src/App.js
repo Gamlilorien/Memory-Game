@@ -9,35 +9,39 @@ class App extends Component {
   state = {
     friends,
     score: 0,
-    highscore: 0
+    maxscore: 0
   };
 
   gameOver = () => {
-    if (this.state.score > this.state.highscore) {
-      this.setState({highscore: this.state.score});
+    if (this.state.score > this.state.maxscore) {
+      this.setState({maxscore: this.state.score});
     }
+    //reset all friend Count values for next game
     this.state.friends.forEach(friend => {
       friend.count = 0;
     });
-    alert(`Game Over! Play again? \nscore: ${this.state.score}`);
+    //Show game over
+    alert(`Gunter says Game Over! \nScore: ${this.state.score}`);
+    //Reset Score to 0 for next game
     this.setState({score: 0});
     return true;
   }
 
-  clickCount = id => {
-    this.state.friends.find((o, i) => {
-      if (o.id === id) {
+  clickStatus = id => {
+    this.state.friends.find((c, i) => {
+      if (c.id === id) {
         if (friends[i].count === 0){
           friends[i].count = friends[i].count + 1;
           this.setState({score : this.state.score + 1});
           this.state.friends.sort(() => Math.random() - 0.5)
             if(this.state.score === 11) {
-              this.setState({highscore: this.state.score +1});
+              this.setState({maxscore: this.state.score +1});
               this.setState({score: 0});
               this.state.friends.forEach(friend => {
                 friend.count = 0;
               });
-              alert(`Yay, you won! :) \nscore: ${this.state.score +1}`);
+              //Show win message
+              alert(`You Win!!! \n \nScore: ${this.state.score +1}`);
             }
           return true; 
         } else {
@@ -54,7 +58,7 @@ class App extends Component {
         <Title>Come on and Click a Friend</Title>
         {this.state.friends.map(friend => (
           <FriendCard
-            clickCount={this.clickCount}
+            clickStatus={this.clickStatus}
             id={friend.id}
             key={friend.id}
             name={friend.name}
