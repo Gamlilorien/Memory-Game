@@ -1,8 +1,20 @@
 .title {
   width: 100%;
   text-align: center;
-  font-size: 3rem;
-  text-decoration: underline;
-  color: #2A77AE;
-  margin-bottom: 50px;
+  text-shadow:
+    -1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+  color: #fcf800;
+}
+
+.atlogo {
+  width: 600px;
+}
+
+@media only screen and (max-width: 580px) {
+  .atlogo {
+    width: 100%;
+  }
 }
