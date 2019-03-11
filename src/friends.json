@@ -2,61 +2,61 @@
   {
     "id": 1,
     "name": "Bemo",
-    "image": "/images/bemo.jpg"
+    "image": "https://raw.githubusercontent.com/Gamlilorien/Memory-Game/master/public/images/bemo.jpg"
   },
   {
     "id": 2,
     "name": "Breakfast Princess",
-    "image": "/images/breakfast.jpg"
+    "image": "https://raw.githubusercontent.com/Gamlilorien/Memory-Game/master/public/images/breakfast.jpg"
   },
   {
     "id": 3,
     "name": "Princess Bubblegum",
-    "image": "/images/bubblegum.jpg"
+    "image": "https://raw.githubusercontent.com/Gamlilorien/Memory-Game/master/public/images/bubblegum.jpg"
   },
   {
     "id": 4,
     "name": "Fin",
-    "image": "/images/fin.jpg"
+    "image": "https://raw.githubusercontent.com/Gamlilorien/Memory-Game/master/public/images/fin.jpg"
   },
   {
     "id": 5,
     "name": "Flame Princess",
-    "image": "/images/fire.jpg"
+    "image": "https://raw.githubusercontent.com/Gamlilorien/Memory-Game/master/public/images/fire.jpg"
   },
   {
     "id": 6,
     "name": "Ice King",
-    "image": "/images/iceKing.jpg"
+    "image": "https://raw.githubusercontent.com/Gamlilorien/Memory-Game/master/public/images/iceKing.jpg"
   },
   {
     "id": 7,
     "name": "Jake",
-    "image": "/images/jake.jpg"
+    "image": "https://raw.githubusercontent.com/Gamlilorien/Memory-Game/master/public/images/jake.jpg"
   },
   {
     "id": 8,
     "name": "Lemongrab",
-    "image": "/images/lemongrab.jpg"
+    "image": "https://raw.githubusercontent.com/Gamlilorien/Memory-Game/master/public/images/lemongrab.jpg"
   },
   {
     "id": 9,
     "name": "Lumpy Space Princess",
-    "image": "/images/lsp.jpg"
+    "image": "https://raw.githubusercontent.com/Gamlilorien/Memory-Game/master/public/images/lsp.jpg"
   },
   {
     "id": 10,
     "name": "Marceline",
-    "image": "/images/marceline.jpg"
+    "image": "https://raw.githubusercontent.com/Gamlilorien/Memory-Game/master/public/images/marceline.jpg"
   },
   {
     "id": 11,
     "name": "Lady Rainicorn",
-    "image": "/images/rainicorn.jpg"
+    "image": "https://raw.githubusercontent.com/Gamlilorien/Memory-Game/master/public/images/rainicorn.jpg"
   },
   {
     "id": 12,
     "name": "Treetrunks",
-    "image": "/images/treetrunks.jpg"
+    "image": "https://raw.githubusercontent.com/Gamlilorien/Memory-Game/master/public/images/treetrunks.jpg"
   }
 ]
